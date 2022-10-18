@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./custom.css">
+    <title>Luciano - Historia</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="row rounded-4 bg-secondary p-2">
+                <div class="col-2">
+                    <img src="./img/foto.png" class="img-thumbnail my-2" style="width:10rem ;" alt="isologotipo">
+                </div>
+                <div class="col-8 mt-5 text-white">
+                    <h1>Website Tester</h1>
+                    <h3>Probando c&oacute;digos est&aacute;ticos.</h3>
+                </div>
+                <div class="col-auto ">
+                    <nav class="breadcrumb mt-4 float-right bg-white p-2 rounded-3">
+                        <li> <a href="https://www.facebook.com" class="breadcrumb-item p-1" target="_blank"><img
+                                    src="./img/face.svg" alt="facebook"></a>
+                        </li>
+                        <li> <a href="https://www.instagram.com" class="breadcrumb-item p-1" target="_blank"><img
+                                    src="./img/insta.svg" alt="instagram"></a>
+                        </li>
+                        <li> <a href="https://www.twitter.com" class="breadcrumb-item p-1" target="_blank"><img
+                                    src="./img/twitter.svg" alt="twitter"></a>
+                        </li>
+                        <li> <a href="https://www.youtube.com" class="breadcrumb-item p-1" target="_blank"><img
+                                    src="./img/youtube.svg" alt="youtube"></a>
+                        </li>
+                        <li> <a href="https://www.linkedin.com" class="breadcrumb-item p-1" target="_blank"><img
+                                    src="./img/in.svg" alt="linkedin"></a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <nav class="nav nav-pills nav-fill">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./historia.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                    </li>
+                    <form class="d-flex m-2 mt-1" role="search ">
+                        <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                        <li class="btn btn-outline-success" type="submit">Buscar</li>
+                    </form>
+                </nav>
+            </div>
+        </header>
+        <div class="principal">
+            <h1>Contacto</h1>
+            <img src="./img/contacto.jpg" class="col-8 rounded pt-4 d-block mx-auto" alt="Banner">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus voluptatum rerum placeat
+                adipisci?
+                Nihil nesciunt earum animi, atque laborum nam quo ex voluptatem delectus iure facilis architecto
+                sapiente
+                illo expedita.</p>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="nombre_apellido">Nombre(s) y apellido(s)</label>
+                    <input type="text" placeholder="Ingresá tu nombre" name="nombre_apellido" id="nombre"> <br>
+                    <label for="nacimiento">Fecha de nacimiento:</label>
+                    <input type="date" name="nacimiento" id="fecha"> <br>
+                    <label for="email">E-Mail:</label>
+                    <input type="email" placeholder="ingresá tu email" name="email" inputmode="email">
+                </div>
+                <fieldset>
+                    <legend>G&eacute;nero</legend>
+                    <select name="genero" id="genero">
+                        <option value="masc">masculino</option>
+                        <option value="fem">femenino</option>
+                        <option value="trans">transgenero</option>
+                        <option value="nobin">no binario</option>
+                        <option value="nada">no deseo responder</option>
+                        <option value="otro">otro</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Colores</legend>
+                    <form>
+                        <input type="radio" name="color" value="rojo" /> <label for="rojo">Rojo</label> <br>
+                        <input type="radio" name="color" value="azul" /> <label for="azul"> Az&uacute;l</label> <br>
+                        <input type="radio" name="color" value="verde" /> <label for="verde">Verde</label> <br>
+                        <input type="radio" name="color" value="amarillo" /> <label for="amarillo">Amarillo</label>
+                        <br>
+                        <input type="radio" name="color" value="blanco" /> <label for="blanco">Blanco</label>
+                    </form>
+                </fieldset>
+                <label for="comentario" id="comentario">Dej&aacute;nos un comentario:</label>
+                <input class="form-control" type="text" name="comentario" id="comentario" maxlength="200">
+                <div>
+                    <h4>T&eacute;rminos y condiciones</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa consectetur perspiciatis
+                        temporibus
+                        eaque pariatur totam dolorum harum incidunt laborum, porro id veniam tempore nobis fugit,
+                        earum
+                        at
+                        aperiam aliquam. Et.
+                    </p>
+                </div>
+                <input type="checkbox" name="terms" id="terms" value="1">
+                <div>He le&iacute;do y acepto los t&eacute;rminos y condiciones.</div>
+            </form>
+
+            <input type="submit" name="enviar" id="enviar" value="Enviar formulario" class="btn btn-primary">
+            <input type="reset" name="reset" id="reset" value="Limpiar formulario" class="btn btn-secondary">
+            </section>
+            <footer class="row my-4 bg-danger text-white">
+                <div class="col-4 pt-4">
+                    <p style="padding-left: 2rem;"><strong>Luciano Prandi - 2022</strong></p>
+                </div>
+
+                <div class="col-6">
+                </div>
+                <div class="col-2 pt-4">
+                    <nav class=" breadcrumb">
+                        <li> <a href="https://www.facebook.com" class="breadcrumb-item p-1" target="_blank"><img
+                                    src="./img/face.svg" alt="facebook"></a>
+                        </li>
+
+                        <li> <a href="https://www.instagram.com" class="breadcrumb-item p-1" target="_blank"><img
+                                    src="./img/insta.svg" alt="instagram"></a>
+                        </li>
+                        <li> <a href="https://www.twitter.com" class="breadcrumb-item p-1" target="_blank"><img
+                                    src="./img/twitter.svg" alt="twitter"></a>
+                        </li>
+                        <li> <a href="https://www.youtube.com" class="breadcrumb-item p-1" target="_blank"><img
+                                    src="./img/youtube.svg" alt="youtube"></a>
+                        </li>
+                        <li> <a href="https://www.linkedin.com" class="breadcrumb-item p-1" target="_blank"><img
+                                    src="./img/in.svg" alt="linkedin"></a>
+                        </li>
+                    </nav>
+                </div>
+            </footer>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

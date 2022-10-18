@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.padre {
+    border: 2px solid crimson;
+    display: grid;
+    grid-template-areas: 
+        "cuadro1 cuadro1 cuadro1"
+        "cuadro2 cuadro3 cuadro3"
+        "cuadro2 cuadro4 cuadro5"
+        "cuadro2 cuadro6 cuadro6"
+        "cuadro7 cuadro7 cuadro7";
+        grid-template-columns: 150px auto 250px;
+        grid-template-rows: 20px 150px 150px 510px 40px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+}
+
+section .cuadro1 {
+    
+    background-color: blue;
+    grid-area: cuadro1;
+    overflow: hidden;
+}
+
+section .cuadro2 {
+    
+    background-color: green;
+    grid-area: cuadro2;
+    overflow: hidden;
+}
+
+section .cuadro3 {
+    
+    background-color: yellow;
+    grid-area: cuadro3;
+    overflow: hidden;
+}
+
+section .cuadro4 {
+    
+    background-color: pink;
+    grid-area: cuadro4;
+    overflow: hidden;
+}
+
+section .cuadro5 {
+    
+    background-color: lightgrey;
+    grid-area: cuadro5;
+    overflow: hidden;
+}
+
+section .cuadro6 {
+    
+    background-color: brown;
+    grid-area: cuadro6;
+    overflow: hidden;
+}
+
+section .cuadro7 {
+    
+    background-color: lightblue;
+    grid-area: cuadro7;
+    overflow: hidden;
+}
